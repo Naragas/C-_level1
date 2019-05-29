@@ -1,0 +1,7 @@
+D:\GitHub\С#_Level1\lesson_1\Lesson1_HW\Lesson1_HW\bin\Debug\Lesson1_HW.exe.config
+D:\GitHub\С#_Level1\lesson_1\Lesson1_HW\Lesson1_HW\bin\Debug\Lesson1_HW.exe
+D:\GitHub\С#_Level1\lesson_1\Lesson1_HW\Lesson1_HW\bin\Debug\Lesson1_HW.pdb
+D:\GitHub\С#_Level1\lesson_1\Lesson1_HW\Lesson1_HW\obj\Debug\Lesson1_HW.csprojAssemblyReference.cache
+D:\GitHub\С#_Level1\lesson_1\Lesson1_HW\Lesson1_HW\obj\Debug\Lesson1_HW.csproj.CoreCompileInputs.cache
+D:\GitHub\С#_Level1\lesson_1\Lesson1_HW\Lesson1_HW\obj\Debug\Lesson1_HW.exe
+D:\GitHub\С#_Level1\lesson_1\Lesson1_HW\Lesson1_HW\obj\Debug\Lesson1_HW.pdb
