@@ -13,6 +13,7 @@ namespace Lesson1_HW
             Console.WriteLine(text);
         }
 
+
         public static void Pause()
         {
             Console.ReadKey();
