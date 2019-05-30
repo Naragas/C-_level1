@@ -1,0 +1,7 @@
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW3\bin\Debug\HW3.exe.config
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW3\bin\Debug\HW3.exe
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW3\bin\Debug\HW3.pdb
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW3\obj\Debug\HW3.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW3\obj\Debug\HW3.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW3\obj\Debug\HW3.exe
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW3\obj\Debug\HW3.pdb

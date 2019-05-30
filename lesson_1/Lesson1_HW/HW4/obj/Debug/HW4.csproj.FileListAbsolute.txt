@@ -1,0 +1,7 @@
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW4\bin\Debug\HW4.exe.config
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW4\bin\Debug\HW4.exe
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW4\bin\Debug\HW4.pdb
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW4\obj\Debug\HW4.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW4\obj\Debug\HW4.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW4\obj\Debug\HW4.exe
+D:\GitHub\CSharp_level1\lesson_1\Lesson1_HW\HW4\obj\Debug\HW4.pdb
