@@ -22,8 +22,13 @@ namespace HW5
             String lastName = "Сахаров";
             String city = "Москва";
 
-            Console.WriteLine($" Мое имя {firstName}, моя фамилия {lastName} я живу в городе {city}");
+            String result = ($"Меня зовут {lastName} {firstName}, я живу в городе {city}.");
 
+            Console.WriteLine(result);
+
+            Console.SetCursorPosition((Console.WindowWidth - result.Length) / 2, Console.CursorTop);
+            Console.WriteLine(result);
+            Console.ReadKey();
 
 
         }
