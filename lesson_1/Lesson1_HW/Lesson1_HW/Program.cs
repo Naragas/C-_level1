@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Lesson1_HW;
+
 
 /* Сахаров Иван.
 
@@ -14,22 +14,78 @@ using Lesson1_HW;
 */
 
 
-namespace Lesson1_HW
+namespace HW1
 {
     class Program
     {
+        
+        static double gettingInput(String dataName, ref double data)
+        {
+            do
+            {
+                Console.WriteLine($"Введите свой {dataName.ToLower()}");
+                String s = Console.ReadLine();
+
+                if (double.TryParse(s, out data) == false)
+                {
+                    Console.WriteLine("Введен не верный формат данных");
+                }
+                else
+                {
+                    if (data == 0 || data < 0)
+                    {
+                        Console.WriteLine($"{dataName} не может быть меньше или равен нулю.");
+                    }
+                }
+
+            } while (data == 0 || data < 0);
+
+            return data;
+        }
+        static int gettingInput(String dataName, ref int data)
+        {
+            do
+            {
+                Console.WriteLine($"Введите свой {dataName.ToLower()}");
+                String s = Console.ReadLine();
+
+                if (int.TryParse(s, out data) == false)
+                {
+                    Console.WriteLine("Введен не верный формат данных");
+                }
+                else
+                {
+                    if (data == 0 || data < 0)
+                    {
+                        Console.WriteLine($"{dataName} не может быть меньше или равен нулю.");
+                    }
+                }
+
+            } while (data == 0 || data < 0);
+
+            return data;
+        }
+
         static void Main(string[] args)
         {
+            string firstName;
+            string lastName;
+            int age = 0;
+            double growth = 0;
+            double weight = 0;
+
+
             Console.WriteLine("Введите ваше Имя");
-            string firstName = Console.ReadLine();
+            firstName = Console.ReadLine();
             Console.WriteLine("Введите вашу Фамилию");
-            string lastName = Console.ReadLine();
-            Console.WriteLine("Введите ваш возраст");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите ваш рост");
-            double growth = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите ваш вес");
-            double weight = Convert.ToDouble(Console.ReadLine());
+            lastName = Console.ReadLine();
+
+            gettingInput("Возраст", ref age);
+            gettingInput("Рост", ref growth);
+            gettingInput("Вес", ref weight);
+
+
+
 
             Console.WriteLine("\nАнкета сотрудника");
             Console.WriteLine("Имя: " + firstName + ", Фамилия: " + lastName + ", Возраст: " + age + ", Рост: " + growth + " см, Вес: " + weight + " кг.");
