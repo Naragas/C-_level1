@@ -1,0 +1,7 @@
+D:\GitHub\С#_Level1\HW2\HW2_1\HW2_1\obj\Debug\HW2_1.csprojAssemblyReference.cache
+D:\GitHub\С#_Level1\HW2\HW2_1\HW2_1\obj\Debug\HW2_1.csproj.CoreCompileInputs.cache
+D:\GitHub\С#_Level1\HW2\HW2_1\HW2_1\bin\Debug\HW2_1.exe.config
+D:\GitHub\С#_Level1\HW2\HW2_1\HW2_1\bin\Debug\HW2_1.exe
+D:\GitHub\С#_Level1\HW2\HW2_1\HW2_1\bin\Debug\HW2_1.pdb
+D:\GitHub\С#_Level1\HW2\HW2_1\HW2_1\obj\Debug\HW2_1.exe
+D:\GitHub\С#_Level1\HW2\HW2_1\HW2_1\obj\Debug\HW2_1.pdb
