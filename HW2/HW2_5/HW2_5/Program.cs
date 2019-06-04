@@ -47,7 +47,19 @@ namespace HW2_5
             gettingInput("Вес", "килограммах", ref weight);
             gettingInput("Рост", "метрах", ref growth);
 
-
+            double bmi = BMI(weight, growth);
+            if (bmi < 18.5)
+            {
+                Console.WriteLine("У вас дефицит массы тела, кушайте больше!");
+            }
+            else if(bmi > 25)
+            {
+                Console.WriteLine("У вас наблюдается ожирение, нужно заняться спортом и кушать меньше углеводов!");
+            }
+            else
+            {
+                Console.WriteLine("Ваш индекс массы тела в норме. все хорошо.");
+            }
 
         }
     }
