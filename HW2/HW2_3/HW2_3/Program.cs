@@ -17,7 +17,7 @@ namespace HW2_3
         {
             while (true)
             {
-                Console.WriteLine("Введите число, чтобы прекратить ввод введите 0");
+                Console.WriteLine("Введите число.");
                 String s = Console.ReadLine();
 
                 if (int.TryParse(s, out data) == false)
@@ -52,6 +52,7 @@ namespace HW2_3
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Программа подсчитает сумму всех нечетных чисел которые будут введены!\nДля завершения ввода чисел нужно ввести 0");
 
             Console.WriteLine("Сумма всех нечетных положительных чисел, которые вы ввели равен: {0}", oddSumm());
             Console.ReadLine();

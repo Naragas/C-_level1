@@ -5,3 +5,10 @@ D:\GitHub\CSharp_level1\HW2\HW2_3\HW2_3\obj\Debug\HW2_3.csprojAssemblyReference.
 D:\GitHub\CSharp_level1\HW2\HW2_3\HW2_3\obj\Debug\HW2_3.csproj.CoreCompileInputs.cache
 D:\GitHub\CSharp_level1\HW2\HW2_3\HW2_3\obj\Debug\HW2_3.exe
 D:\GitHub\CSharp_level1\HW2\HW2_3\HW2_3\obj\Debug\HW2_3.pdb
+D:\GitHub\CSharp_level1.git\HW2\HW2_3\HW2_3\bin\Debug\HW2_3.exe.config
+D:\GitHub\CSharp_level1.git\HW2\HW2_3\HW2_3\bin\Debug\HW2_3.exe
+D:\GitHub\CSharp_level1.git\HW2\HW2_3\HW2_3\bin\Debug\HW2_3.pdb
+D:\GitHub\CSharp_level1.git\HW2\HW2_3\HW2_3\obj\Debug\HW2_3.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1.git\HW2\HW2_3\HW2_3\obj\Debug\HW2_3.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1.git\HW2\HW2_3\HW2_3\obj\Debug\HW2_3.exe
+D:\GitHub\CSharp_level1.git\HW2\HW2_3\HW2_3\obj\Debug\HW2_3.pdb
