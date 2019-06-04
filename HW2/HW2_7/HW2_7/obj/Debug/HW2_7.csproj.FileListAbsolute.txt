@@ -1,0 +1,7 @@
+D:\GitHub\CSharp_level1\HW2\HW2_7\HW2_7\bin\Debug\HW2_7.exe.config
+D:\GitHub\CSharp_level1\HW2\HW2_7\HW2_7\bin\Debug\HW2_7.exe
+D:\GitHub\CSharp_level1\HW2\HW2_7\HW2_7\bin\Debug\HW2_7.pdb
+D:\GitHub\CSharp_level1\HW2\HW2_7\HW2_7\obj\Debug\HW2_7.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\HW2\HW2_7\HW2_7\obj\Debug\HW2_7.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW2\HW2_7\HW2_7\obj\Debug\HW2_7.exe
+D:\GitHub\CSharp_level1\HW2\HW2_7\HW2_7\obj\Debug\HW2_7.pdb

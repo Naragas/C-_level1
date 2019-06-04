@@ -8,10 +8,30 @@ namespace HW2_5
 {
     class Program
     {
-        static double BMI(double weight, double growth)
+        static String BMI(double weight, double growth)
         {
+            String result = "";
             double bmi = weight / (growth * growth);
-            return bmi;
+           
+
+            if (bmi < 18.5)
+            {
+                double needWeight = 18.5 * growth * growth -  weight;
+                result += "У вас дефицит массы тела, кушайте больше! Вам нужно набрать " + needWeight + " кг.";
+            }
+            else if (bmi > 25)
+            {
+                double needWeight = weight - 25 * growth * growth;
+                result += "У вас наблюдается ожирение, Вам нужно сбросить " + needWeight + " кг. Займитесь спортом и кушайте меньше углеводов!";
+            }
+            else
+            {
+                result += "Ваш индекс массы тела в норме. все хорошо.";
+            }
+
+
+            return result;
+
         }
 
         static double gettingInput(String dataName, String dataUnit, ref double data)
@@ -47,19 +67,9 @@ namespace HW2_5
             gettingInput("Вес", "килограммах", ref weight);
             gettingInput("Рост", "метрах", ref growth);
 
-            double bmi = BMI(weight, growth);
-            if (bmi < 18.5)
-            {
-                Console.WriteLine("У вас дефицит массы тела, кушайте больше!");
-            }
-            else if(bmi > 25)
-            {
-                Console.WriteLine("У вас наблюдается ожирение, нужно заняться спортом и кушать меньше углеводов!");
-            }
-            else
-            {
-                Console.WriteLine("Ваш индекс массы тела в норме. все хорошо.");
-            }
+            Console.WriteLine(BMI(weight, growth));
+            Console.ReadLine();
+
 
         }
     }

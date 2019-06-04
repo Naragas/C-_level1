@@ -1,0 +1,6 @@
+D:\GitHub\CSharp_level1\HW2\HW2_5\HW2_5\bin\Debug\HW2_5.exe.config
+D:\GitHub\CSharp_level1\HW2\HW2_5\HW2_5\bin\Debug\HW2_5.exe
+D:\GitHub\CSharp_level1\HW2\HW2_5\HW2_5\bin\Debug\HW2_5.pdb
+D:\GitHub\CSharp_level1\HW2\HW2_5\HW2_5\obj\Debug\HW2_5.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW2\HW2_5\HW2_5\obj\Debug\HW2_5.exe
+D:\GitHub\CSharp_level1\HW2\HW2_5\HW2_5\obj\Debug\HW2_5.pdb
