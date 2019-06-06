@@ -12,27 +12,74 @@ using System.Threading.Tasks;
 * Добавить упрощение дробей.
 */
 namespace HW3
+       
 {
     class Program
     {
 
-        static void Main(string[] args)
+        static void gettingInput(String dataName, ref int data)
         {
-            Fractions fr1 = new Fractions(16, 30);
-            Fractions fr2 = new Fractions();
-            fr2.NumenatorSet(23);
-            fr2.DenominatorSet(59);
+            while (true)
+            {
+                Console.WriteLine($"Введите {dataName}");
+                String s = Console.ReadLine();
 
-            Console.WriteLine(fr1.Show());
-            Console.WriteLine(fr2.Show());
-
-            fr1 = fr1.Simplification(fr1);
-            fr2 = fr2.Simplification(fr2);
-            Console.WriteLine(fr1.Show());
-            Console.WriteLine(fr2.Show());
-            Console.ReadLine();
-            
+                if (int.TryParse(s, out data) == false)
+                {
+                    Console.WriteLine("Введен не верный формат данных");
+                }
+                else
+                {
+                    break;
+                }
+            }
         }
 
+
+
+
+        static void Main(string[] args)
+        {
+            int numberA = 0;
+            int numberB = 0;
+            int numberC = 0;
+            int numberD = 0;
+
+
+
+            Console.WriteLine("Вас приветствует программа демонтсрируящая матемотические действия с дробями!");
+            Console.WriteLine("Далее нужно будет ввести данные для создания дробей в виде A/B, (3/4)");
+            gettingInput("числитель первой дроби", ref numberA);
+            gettingInput("знаменатель первой дроби", ref numberB);
+
+            Fractions fr1 = new Fractions(numberA, numberB);
+            Console.WriteLine($"Спасибо, первая дробь {numberA}/{numberB} упрощена и это : {fr1.ToString()}");
+
+
+            gettingInput("числитель второй дроби", ref numberC);
+            gettingInput("знаменатель первой дроби", ref numberD);
+
+            Fractions fr2 = new Fractions(numberC, numberD);
+            Console.WriteLine($"Спасибо, вторая дробь {numberC}/{numberD} упрощена и это : {fr2.ToString()}");
+            Console.WriteLine();
+            Console.WriteLine("Математические операции между двумя дробями:");
+            Console.WriteLine();
+            Console.WriteLine($"{fr1.ToString()} + {fr2.ToString()} = {fr1.Summ(fr2)}");
+            Console.WriteLine($"{fr1.ToString()} - {fr2.ToString()} = {fr1.Diff(fr2)}");
+            Console.WriteLine($"{fr1.ToString()} * {fr2.ToString()} = {fr1.Mult(fr2)}");
+            Console.WriteLine($"{fr1.ToString()} / {fr2.ToString()} = {fr1.Divi(fr2)}");
+            Console.WriteLine();
+            Console.WriteLine("Вывод дроби в деситичном виде:");
+            Console.WriteLine();
+            Console.WriteLine($"{fr1.ToString()} в деситичном виде будет  - {fr1.decimalFraction()}");
+            Console.WriteLine($"{fr2.ToString()} в деситичном виде будет  - {fr2.decimalFraction()}");
+            Console.WriteLine();
+            Console.WriteLine("Вывод знаменателей через метод Get:");
+            Console.WriteLine($"Знаменатель первой дроби {fr1.DemonatorGet()}");
+            Console.WriteLine($"Знаменатель второй дроби {fr2.DemonatorGet()}");
+
+
+            Console.ReadLine();
+        }
     }
 }

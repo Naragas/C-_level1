@@ -27,6 +27,10 @@ namespace HW3
         public void DenominatorSet(int value)
         {
             denominator = value;
+            if (denominator == 0)
+            {
+                throw new ArgumentNullException("Fraction denominator can't be zero");
+            }
         }
 
         public Fractions()
@@ -38,13 +42,35 @@ namespace HW3
         {
             if(denominator == 0)
             {
-                throw new ArgumentNullException("Fraction denominator can't be zero");
+                throw new ArgumentException("Fraction denominator can't be zero");
             }
 
+            Simplification(ref numenator, ref denominator);
+            
             this.numenator = numenator;
             this.denominator = denominator;
+
+
         }
 
+        static int NOD(int numenator , int denominator)
+        {
+            int a = numenator;
+            int b = denominator;
+
+            while (a != b)
+            {
+                if (a > b)
+                {
+                    a = a - b;
+                }
+                else
+                {
+                    b = b - a;
+                }
+            }
+            return a;
+        }
         static int NOD(Fractions f2)
         {
             int a = f2.numenator;
@@ -79,6 +105,13 @@ namespace HW3
             return f3;
 
         }
+        public void Simplification(ref int numenator, ref int denominator)
+        {
+            int a = NOD(numenator, denominator);
+            numenator = numenator / a;
+            denominator = denominator / a;                
+
+        }
 
 
         public Fractions Summ(Fractions f2)
@@ -87,7 +120,7 @@ namespace HW3
             f3.numenator = numenator * f2.denominator + f2.numenator * denominator;
             f3.denominator = denominator * f2.denominator;
 
-            return f3.Simplification(f3);
+            return Simplification(f3);
         }
 
         public Fractions Diff(Fractions f2)
@@ -96,7 +129,7 @@ namespace HW3
             f3.numenator = numenator * f2.denominator - f2.numenator * denominator;
             f3.denominator = denominator * f2.denominator;
 
-            return f3.Simplification(f3);
+            return Simplification(f3);
         }
 
         public Fractions Mult(Fractions f2)
@@ -105,7 +138,7 @@ namespace HW3
             f3.numenator = numenator * f2.numenator;
             f3.denominator = denominator * f2.denominator;
 
-            return f3.Simplification(f3);
+            return Simplification(f3);
         }
 
         public Fractions Divi(Fractions f2)
@@ -114,10 +147,10 @@ namespace HW3
             f3.numenator = numenator * f2.denominator;
             f3.denominator = denominator * f2.numenator;
 
-            return f3.Simplification(f3);
+            return Simplification(f3);
         }
 
-        public String Show()
+        public override string ToString()
         {
             return numenator + "/" + denominator;
         }
