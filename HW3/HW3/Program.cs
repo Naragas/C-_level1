@@ -61,20 +61,32 @@ namespace HW3
 
             Fractions fr2 = new Fractions(numberC, numberD);
             Console.WriteLine($"Спасибо, вторая дробь {numberC}/{numberD} упрощена и это : {fr2.ToString()}");
+
+
             Console.WriteLine();
+
             Console.WriteLine("Математические операции между двумя дробями:");
+
             Console.WriteLine();
+
             Console.WriteLine($"{fr1.ToString()} + {fr2.ToString()} = {fr1.Summ(fr2)}");
             Console.WriteLine($"{fr1.ToString()} - {fr2.ToString()} = {fr1.Diff(fr2)}");
             Console.WriteLine($"{fr1.ToString()} * {fr2.ToString()} = {fr1.Mult(fr2)}");
             Console.WriteLine($"{fr1.ToString()} / {fr2.ToString()} = {fr1.Divi(fr2)}");
+
             Console.WriteLine();
-            Console.WriteLine("Вывод дроби в деситичном виде:");
+
+            Console.WriteLine("Вывод дроби в деситичном виде:",ConsoleColor.Red);
+
             Console.WriteLine();
+
             Console.WriteLine($"{fr1.ToString()} в деситичном виде будет  - {fr1.decimalFraction()}");
             Console.WriteLine($"{fr2.ToString()} в деситичном виде будет  - {fr2.decimalFraction()}");
+
             Console.WriteLine();
+
             Console.WriteLine("Вывод знаменателей через метод Get:");
+
             Console.WriteLine($"Знаменатель первой дроби {fr1.DemonatorGet()}");
             Console.WriteLine($"Знаменатель второй дроби {fr2.DemonatorGet()}");
 

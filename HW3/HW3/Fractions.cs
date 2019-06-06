@@ -55,8 +55,8 @@ namespace HW3
 
         static int NOD(int numenator , int denominator)
         {
-            int a = numenator;
-            int b = denominator;
+            int a = Math.Abs(numenator);
+            int b = Math.Abs(denominator);
 
             while (a != b)
             {
@@ -73,8 +73,8 @@ namespace HW3
         }
         static int NOD(Fractions f2)
         {
-            int a = f2.numenator;
-            int b = f2.denominator;
+            int a = Math.Abs(f2.numenator);
+            int b = Math.Abs(f2.denominator);
 
             while (a != b)
             {
