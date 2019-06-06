@@ -4,3 +4,4 @@ D:\GitHub\CSharp_level1\HW3\HW3_2\bin\Debug\HW3_2.pdb
 D:\GitHub\CSharp_level1\HW3\HW3_2\obj\Debug\HW3_2.csproj.CoreCompileInputs.cache
 D:\GitHub\CSharp_level1\HW3\HW3_2\obj\Debug\HW3_2.exe
 D:\GitHub\CSharp_level1\HW3\HW3_2\obj\Debug\HW3_2.pdb
+D:\GitHub\CSharp_level1\HW3\HW3_2\obj\Debug\HW3_2.csprojAssemblyReference.cache

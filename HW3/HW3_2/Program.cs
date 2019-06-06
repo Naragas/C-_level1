@@ -34,7 +34,7 @@ namespace HW2_3
 
         static int oddSumm(ref String result)
         {
-            
+
             int summ = 0;
 
             while (true)
@@ -51,7 +51,7 @@ namespace HW2_3
                     summ = summ + n;
                 }
             }
-            
+            result = result.Remove(result.Length - 2, 2);
             return summ;
         }
         static void Main(string[] args)
