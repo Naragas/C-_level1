@@ -1,0 +1,7 @@
+D:\GitHub\CSharp_level1\HW4\HW4_3\bin\Debug\HW4_3.exe.config
+D:\GitHub\CSharp_level1\HW4\HW4_3\bin\Debug\HW4_3.exe
+D:\GitHub\CSharp_level1\HW4\HW4_3\bin\Debug\HW4_3.pdb
+D:\GitHub\CSharp_level1\HW4\HW4_3\obj\Debug\HW4_3.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\HW4\HW4_3\obj\Debug\HW4_3.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW4\HW4_3\obj\Debug\HW4_3.exe
+D:\GitHub\CSharp_level1\HW4\HW4_3\obj\Debug\HW4_3.pdb
