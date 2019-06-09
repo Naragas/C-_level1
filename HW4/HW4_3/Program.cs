@@ -2,174 +2,53 @@
 using System.Linq;
 using System.IO;
 
+
+// Сахаров Иван.
+// а) Дописать класс для работы с одномерным массивом. 
+//     Реализовать конструктор, создающий массив определенного размера и заполняющий массив числами от начального значения с заданным шагом. 
+//     Создать свойство Sum, которое возвращает сумму элементов массива, 
+//     метод Inverse, возвращающий новый массив с измененными знаками у всех элементов массива (старый массив, остается без изменений),
+//     метод Multi, умножающий каждый элемент массива на определённое число, 
+//     свойство MaxCount, возвращающее количество максимальных элементов. 
+// б)** Создать библиотеку содержащую класс для работы с массивом.Продемонстрировать работу библиотеки
+// в) *** Подсчитать частоту вхождения каждого элемента в массив(коллекция Dictionary<int, int>)
+
 namespace HW4_3
 {
-    class MyArray
-    {
-        int[] a;
-        //  Создание массива и заполнение его одним значением el  
-        public MyArray(int n, int el)
-        {
-            a = new int[n];
-            for (int i = 0; i < n; i++)
-                a[i] = el;
-        }
-        public MyArray(int[] array)
-        {
-            a = new int[array.Length];
-                        
-        }
-        ////  Создание массива и заполнение его случайными числами от min до max
-        //public MyArray(int n, int min, int max)
-        //{
-        //    a = new int[n];
-        //    Random rnd = new Random();
-        //    for (int i = 0; i < n; i++)
-        //        a[i] = rnd.Next(min, max);
-        //}
-
-        public MyArray(int n, int start, byte step)
-        {
-            a = new int[n];
-            a[0] = start;
-            for (int i = 1; i < n; i++)
-            {
-                a[i] = a[i - 1] + step;
-            }
-        }
-
-        public int[] Inverse()
-        {
-
-            int[] inversArray = new int[a.Length];
-            for (int i = 0; i < inversArray.Length; i++)
-            {
-                inversArray[i] = -a[i];
-            }
-            return inversArray;
-        }
-
-        public void Multi(int number)
-        {
-            for (int i = 0; i < a.Length; i++)
-            {
-                a[i] *= number;
-            }
-        }
-
-
-        public int Sum
-        {
-            get
-            {
-                int summ = 0;
-                foreach (int v in a)
-                {
-                    summ += v;
-                }
-                return summ;
-            }
-        }
-        public int Max
-        {
-            get
-            {
-                int max = a[0];
-                for (int i = 1; i < a.Length; i++)
-                    if (a[i] > max) max = a[i];
-                return max;
-            }
-        }
-        public int Min
-        {
-            get
-            {
-                int min = a[0];
-                for (int i = 1; i < a.Length; i++)
-                    if (a[i] < min) min = a[i];
-                return min;
-            }
-        }
-        public int CountPositive
-        {
-            get
-            {
-                int count = 0;
-                for (int i = 0; i < a.Length; i++)
-                    if (a[i] > 0) count++;
-                return count;
-            }
-        }
-        public override string ToString()
-        {
-            string s = "";
-            foreach (int v in a)
-                s = s + v + " ";
-            return s;
-        }
-
-        public int MaxCount
-        {
-            
-            get
-            {
-                int count = 0;
-                for (int i = 0; i < a.Length; i++)
-                {
-                    if (a[i] == Max) count++;
-
-                }
-                return count;
-
-            
-            }
-        }
-        public void Print()
-        {
-            foreach (int el in a)
-                Console.Write("{0,4}", el);
-        }
-
-        internal static void Inverse(MyArray arr1)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void Multi()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-
-
     class Program
     {
         static void Main(string[] args)
         {
-            //MyArray a = new MyArray(10, 0, 100);
-            //Console.WriteLine(a.ToString());
-            //Console.WriteLine(a.Max);
-            //Console.WriteLine(a.Min);
-            //Console.WriteLine(a.CountPositive);
-            
-            MyArray arr1 = new MyArray(30, 4, 5);
+            MyArray arr1 = new MyArray(15, 5, 4);
+            int[] arr2 = arr1.Inverse();
+            MyArray arr3 = new MyArray(30);
+
+            Console.WriteLine("Первый массив:");
             arr1.Print();
+            Console.WriteLine("\n\nИнверсированный массив:");
+            for (int i = 0; i < arr2.Length; i++)
+            {
+                Console.Write($"{arr2[i]} ");
+            }
             Console.WriteLine();
-            Console.WriteLine(arr1.MaxCount);
-            Console.WriteLine(arr1.Sum);
-            Console.WriteLine(arr1.MaxCount);
-            arr1.Multi(5);
+
+
+            Console.WriteLine("\nТретий массив:");
+
+            arr3.Print();
+
+            Console.WriteLine("\n\nРабота метода Multi умножающего каждый элемент массива на желаемое число(В нашем случае 3):\n");
+
+            arr1.Multi(3);
+            Console.WriteLine("Первый массив после метода Multi\n");
             arr1.Print();
-                        
-            
-            
-          
+
+            Console.WriteLine($"\n\nСумма всех элементов массива номер 3 равна {arr3.Sum}");
+
+            Console.WriteLine($"\n\nКоличество повторений максимального значения {arr3.Max} в массиве номер 3: {arr3.MaxCount}");
+
 
             Console.ReadLine();
-
-
-
         }
     }
 }
