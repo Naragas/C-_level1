@@ -74,7 +74,6 @@ namespace HW4
             }
             catch (FileNotFoundException)
             {
-
                 Console.WriteLine($"Файл по пути {path} не найден.");
             }
             return array;

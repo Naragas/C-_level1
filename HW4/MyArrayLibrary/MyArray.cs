@@ -1,14 +1,13 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Закоментировано после создания библиотеки.
-
-/*namespace HW4_3
+namespace MyArrayLibrary
 {
-    class MyArray
+    public class MyArray
     {
         private int[] a;
         Random rnd = new Random();
@@ -151,4 +150,4 @@ using System.Threading.Tasks;
     }
 
 }
-*/
+

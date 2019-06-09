@@ -1,0 +1,6 @@
+D:\GitHub\CSharp_level1\HW4\MyArrayLibrary\obj\Debug\MyArrayLibrary.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\HW4\MyArrayLibrary\obj\Debug\MyArrayLibrary.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW4\MyArrayLibrary\bin\Debug\MyArrayLibrary.dll
+D:\GitHub\CSharp_level1\HW4\MyArrayLibrary\bin\Debug\MyArrayLibrary.pdb
+D:\GitHub\CSharp_level1\HW4\MyArrayLibrary\obj\Debug\MyArrayLibrary.dll
+D:\GitHub\CSharp_level1\HW4\MyArrayLibrary\obj\Debug\MyArrayLibrary.pdb

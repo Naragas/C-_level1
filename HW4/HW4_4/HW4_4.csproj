@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73BA6B7C-8F0A-41A8-B519-C7C096428AF8}</ProjectGuid>
+    <ProjectGuid>{49E718B6-F0AA-4129-8623-6CB50BEDAC90}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HW4</RootNamespace>
-    <AssemblyName>HW4</AssemblyName>
+    <RootNamespace>HW4_4</RootNamespace>
+    <AssemblyName>HW4_4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
