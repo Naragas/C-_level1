@@ -179,7 +179,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Naragas\\.nuget\\packages\\": {},
+    "C:\\Users\\narag\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -188,14 +188,14 @@
       "projectUniqueName": "D:\\GitHub\\CSharp_level1\\HW4\\MyTwoDimensionalArrayLibrary\\MyTwoDimensionalArrayLibrary.csproj",
       "projectName": "MyTwoDimensionalArrayLibrary",
       "projectPath": "D:\\GitHub\\CSharp_level1\\HW4\\MyTwoDimensionalArrayLibrary\\MyTwoDimensionalArrayLibrary.csproj",
-      "packagesPath": "C:\\Users\\Naragas\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\narag\\.nuget\\packages\\",
       "outputPath": "D:\\GitHub\\CSharp_level1\\HW4\\MyTwoDimensionalArrayLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Naragas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\narag\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

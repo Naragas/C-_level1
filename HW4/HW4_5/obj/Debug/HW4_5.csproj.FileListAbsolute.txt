@@ -1,0 +1,9 @@
+D:\GitHub\CSharp_level1\HW4\HW4_5\bin\Debug\HW4_5.exe.config
+D:\GitHub\CSharp_level1\HW4\HW4_5\bin\Debug\HW4_5.exe
+D:\GitHub\CSharp_level1\HW4\HW4_5\bin\Debug\HW4_5.pdb
+D:\GitHub\CSharp_level1\HW4\HW4_5\obj\Debug\HW4_5.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\HW4\HW4_5\obj\Debug\HW4_5.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW4\HW4_5\obj\Debug\HW4_5.exe
+D:\GitHub\CSharp_level1\HW4\HW4_5\obj\Debug\HW4_5.pdb
+D:\GitHub\CSharp_level1\HW4\HW4_5\bin\Debug\MyTwoDimensionalArrayLibrary.dll
+D:\GitHub\CSharp_level1\HW4\HW4_5\obj\Debug\HW4_5.csproj.CopyComplete

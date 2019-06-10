@@ -1,0 +1,9 @@
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\bin\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.deps.json
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\bin\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.dll
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\bin\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.pdb
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\obj\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\obj\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\obj\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.AssemblyInfoInputs.cache
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\obj\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.AssemblyInfo.cs
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\obj\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.dll
+D:\GitHub\CSharp_level1\HW4\MyTwoDimensionalArrayLibrary\obj\Debug\netstandard2.0\MyTwoDimensionalArrayLibrary.pdb
