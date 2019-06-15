@@ -1,0 +1,7 @@
+D:\GitHub\CSharp_level1\HW5\HW5_4\bin\Debug\HW5_4.exe.config
+D:\GitHub\CSharp_level1\HW5\HW5_4\bin\Debug\HW5_4.exe
+D:\GitHub\CSharp_level1\HW5\HW5_4\bin\Debug\HW5_4.pdb
+D:\GitHub\CSharp_level1\HW5\HW5_4\obj\Debug\HW5_4.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\HW5\HW5_4\obj\Debug\HW5_4.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW5\HW5_4\obj\Debug\HW5_4.exe
+D:\GitHub\CSharp_level1\HW5\HW5_4\obj\Debug\HW5_4.pdb
