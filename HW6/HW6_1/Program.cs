@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*Сахаров Иван
+ * Задания 1 и 2
+ */
+
 namespace HW6_1
 {
     class Program
