@@ -1,5 +1,4 @@
 D:\GitHub\CSharp_level1\HW7\HW7\obj\Debug\HW7.csprojAssemblyReference.cache
-D:\GitHub\CSharp_level1\HW7\HW7\obj\Debug\HW7.Form1.resources
 D:\GitHub\CSharp_level1\HW7\HW7\obj\Debug\HW7.Properties.Resources.resources
 D:\GitHub\CSharp_level1\HW7\HW7\obj\Debug\HW7.csproj.GenerateResource.cache
 D:\GitHub\CSharp_level1\HW7\HW7\obj\Debug\HW7.csproj.CoreCompileInputs.cache
@@ -8,3 +7,4 @@ D:\GitHub\CSharp_level1\HW7\HW7\bin\Debug\HW7.exe
 D:\GitHub\CSharp_level1\HW7\HW7\bin\Debug\HW7.pdb
 D:\GitHub\CSharp_level1\HW7\HW7\obj\Debug\HW7.exe
 D:\GitHub\CSharp_level1\HW7\HW7\obj\Debug\HW7.pdb
+D:\GitHub\CSharp_level1\HW7\HW7\obj\Debug\HW7.FormStart.resources
