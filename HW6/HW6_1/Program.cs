@@ -32,8 +32,8 @@ namespace HW6_1
             Console.WriteLine("2) x * x - 30 * x + 20");
             Console.WriteLine("3) x / (x - 4) * (34 - x)");
             Console.WriteLine("Выберите каккую функцию вы хотите использовать(1, 2, 3)");
-            int number = int.Parse(Console.ReadLine());
-            Task2.SaveFunc(functions[number-1], "data.bin", 22, 66, 2);
+            int userChoiсe = int.Parse(Console.ReadLine());
+            Task2.SaveFunc(functions[userChoiсe-1], "data.bin", 22, 66, 2);
             Console.WriteLine(Task2.Load("data.bin"));
 
 

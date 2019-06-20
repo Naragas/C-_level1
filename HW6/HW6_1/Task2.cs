@@ -50,8 +50,7 @@ namespace HW6_1
             double min = double.MaxValue;
             double d;
             for (int i = 0; i < fs.Length / sizeof(double); i++)
-            {
-                // Считываем значение и переходим к следующему
+            {                
                 d = bw.ReadDouble();
                 if (d < min) min = d;
             }
