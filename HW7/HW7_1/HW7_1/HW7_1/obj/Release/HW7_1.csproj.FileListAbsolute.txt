@@ -1,0 +1,9 @@
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\bin\Release\HW7_1.exe.config
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\bin\Release\HW7_1.exe
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\bin\Release\HW7_1.pdb
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\obj\Release\HW7_1.mainForm.resources
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\obj\Release\HW7_1.Properties.Resources.resources
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\obj\Release\HW7_1.csproj.GenerateResource.cache
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\obj\Release\HW7_1.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\obj\Release\HW7_1.exe
+D:\GitHub\CSharp_level1\HW7\HW7_1\HW7_1\HW7_1\obj\Release\HW7_1.pdb

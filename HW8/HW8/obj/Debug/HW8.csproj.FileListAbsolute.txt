@@ -1,0 +1,10 @@
+D:\GitHub\CSharp_level1\HW8\HW8\bin\Debug\HW8.exe.config
+D:\GitHub\CSharp_level1\HW8\HW8\bin\Debug\HW8.exe
+D:\GitHub\CSharp_level1\HW8\HW8\bin\Debug\HW8.pdb
+D:\GitHub\CSharp_level1\HW8\HW8\obj\Debug\HW8.csprojAssemblyReference.cache
+D:\GitHub\CSharp_level1\HW8\HW8\obj\Debug\HW8.Form1.resources
+D:\GitHub\CSharp_level1\HW8\HW8\obj\Debug\HW8.Properties.Resources.resources
+D:\GitHub\CSharp_level1\HW8\HW8\obj\Debug\HW8.csproj.GenerateResource.cache
+D:\GitHub\CSharp_level1\HW8\HW8\obj\Debug\HW8.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp_level1\HW8\HW8\obj\Debug\HW8.exe
+D:\GitHub\CSharp_level1\HW8\HW8\obj\Debug\HW8.pdb
