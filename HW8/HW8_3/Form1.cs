@@ -38,7 +38,6 @@ namespace HW8_3
             }
         }
 
-
         private void tsmiOpen_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -48,14 +47,22 @@ namespace HW8_3
                 database.Load();
                 nudNumber.Minimum = 1;
                 nudNumber.Maximum = database.Count;
-                nudNumber.Value = 1;
+                nudNumber.Value = 1;
+
             }
         }
 
         private void tsmiSave_Click(object sender, EventArgs e)
         {
-            database[(int)nudNumber.Value - 1].text = tbQuestion.Text;
-            database[(int)nudNumber.Value - 1].trueFalse = cbTrue.Checked;
+            try
+            {
+                database[(int)nudNumber.Value - 1].text = tbQuestion.Text;
+                database[(int)nudNumber.Value - 1].trueFalse = cbTrue.Checked;
+            }
+            catch (System.NullReferenceException)
+            {
+                MessageBox.Show("База данных не создана.");
+            }
         }
 
         private void nudNumber_ValueChanged(object sender, EventArgs e)
@@ -65,12 +72,11 @@ namespace HW8_3
                 tbQuestion.Text = database[(int)nudNumber.Value - 1].text;
                 cbTrue.Checked = database[(int)nudNumber.Value - 1].trueFalse;
             }
-            catch (Exception)
+            catch (System.NullReferenceException )
             {
-                
-                MessageBox.Show("База данных пуста.");return;
+                MessageBox.Show("База данных пуста.");
+                nudNumber.Value = 0;
             }
-
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -102,6 +108,11 @@ namespace HW8_3
         private void tsmiAbout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Версия 1.0\nавтор Сахаров И.С.");
+        }
+
+        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

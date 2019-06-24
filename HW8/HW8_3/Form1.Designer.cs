@@ -34,14 +34,15 @@
             this.tsmiOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSave = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.tbQuestion = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.nudNumber = new System.Windows.Forms.NumericUpDown();
             this.cbTrue = new System.Windows.Forms.CheckBox();
-            this.tsmiHelp = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).BeginInit();
             this.SuspendLayout();
@@ -63,7 +64,8 @@
             this.tsmiNew,
             this.tsmiOpen,
             this.tsmiSave,
-            this.tsmiExit});
+            this.tsmiExit,
+            this.saveAsToolStripMenuItem});
             this.tsmiFile.Name = "tsmiFile";
             this.tsmiFile.Size = new System.Drawing.Size(37, 20);
             this.tsmiFile.Text = "File";
@@ -95,6 +97,21 @@
             this.tsmiExit.Size = new System.Drawing.Size(180, 22);
             this.tsmiExit.Text = "Exit";
             this.tsmiExit.Click += new System.EventHandler(this.tsmiExit_Click);
+            // 
+            // tsmiHelp
+            // 
+            this.tsmiHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiAbout});
+            this.tsmiHelp.Name = "tsmiHelp";
+            this.tsmiHelp.Size = new System.Drawing.Size(68, 20);
+            this.tsmiHelp.Text = "Помощь";
+            // 
+            // tsmiAbout
+            // 
+            this.tsmiAbout.Name = "tsmiAbout";
+            this.tsmiAbout.Size = new System.Drawing.Size(149, 22);
+            this.tsmiAbout.Text = "О программе";
+            this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
             // 
             // tbQuestion
             // 
@@ -152,20 +169,12 @@
             this.cbTrue.Text = "Правда";
             this.cbTrue.UseVisualStyleBackColor = true;
             // 
-            // tsmiHelp
+            // saveAsToolStripMenuItem
             // 
-            this.tsmiHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiAbout});
-            this.tsmiHelp.Name = "tsmiHelp";
-            this.tsmiHelp.Size = new System.Drawing.Size(68, 20);
-            this.tsmiHelp.Text = "Помощь";
-            // 
-            // tsmiAbout
-            // 
-            this.tsmiAbout.Name = "tsmiAbout";
-            this.tsmiAbout.Size = new System.Drawing.Size(180, 22);
-            this.tsmiAbout.Text = "О программе";
-            this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
+            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsToolStripMenuItem.Text = "Save As";
+            this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -206,6 +215,7 @@
         private System.Windows.Forms.CheckBox cbTrue;
         private System.Windows.Forms.ToolStripMenuItem tsmiHelp;
         private System.Windows.Forms.ToolStripMenuItem tsmiAbout;
+        private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
     }
 }
 
