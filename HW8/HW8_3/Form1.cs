@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,9 +11,35 @@ using System.Windows.Forms;
 
 namespace HW8_3
 {
+
     
     public partial class Form1 : Form
     {
+        void SaveAs()
+        {
+            using (SaveFileDialog dialog = new SaveFileDialog())
+            {
+                dialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                dialog.FilterIndex = 2;
+                dialog.RestoreDirectory = true;
+
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {                   
+                    using (Stream stream = dialog.OpenFile())
+                    {
+                        try
+                        {
+                            database[(int)nudNumber.Value - 1].text = tbQuestion.Text;
+                            database[(int)nudNumber.Value - 1].trueFalse = cbTrue.Checked;
+                        }
+                        catch (System.NullReferenceException)
+                        {
+                            MessageBox.Show("База данных пуста.");
+                        }
+                    }
+                }
+            }
+        }
         TrueFalse database;
         public Form1()
         {
@@ -112,7 +139,7 @@ namespace HW8_3
 
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            SaveAs();
         }
     }
 }
